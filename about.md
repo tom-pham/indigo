@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-Hi :wave:!
+Hi!
 
 My name is Tom Pham, and I'm a data analyst at the Institute of Health Metrics
 and evaluation. I work on the COVID-19 forecasting team, where I deliver
