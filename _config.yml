@@ -36,17 +36,17 @@ disqus:
 # facebook: myfacebook
 # twitter: mytwitter
 instagram: tomfellasleep
-linkedin: https://www.linkedin.com/in/tom-tuan-pham/
-github: https://github.com/tom-pham
+linkedin: tom-tuan-pham/
+github: tom-pham
 email: thtupham@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  tom-pham:
+    name: Tom Pham
+    bio: COVID-19 Data Analyst
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
+    #twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
