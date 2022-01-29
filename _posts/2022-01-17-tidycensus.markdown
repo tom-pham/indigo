@@ -13,7 +13,7 @@ author: tom-pham
 description: Markdown summary with different options
 ---
 
-### Intro
+### Introduction
 
 The Census Bureau contains a rich source of demographic and economic data in the US.
 
