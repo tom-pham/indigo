@@ -1,5 +1,5 @@
 ---
-title: "Bivariate mapping??? :world_map: in R with tidycensus and biscale"
+title: "Bivariate mapping :world_map: in R with tidycensus and biscale"
 layout: post
 date: 2022-01-29 12:33
 image: /assets/images/ca_bivariate_race_income_map.png
