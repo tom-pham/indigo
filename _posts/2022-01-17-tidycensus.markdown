@@ -2,7 +2,7 @@
 title: "Mapping census data in R with tidycensus"
 layout: post
 date: 2022-01-17 22:44
-image: /assets/images/ca_household_income_county_map.png
+image: https://walker-data.com/tidycensus/logo.png
 headerImage: true
 tag:
 - R
