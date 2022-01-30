@@ -43,7 +43,7 @@ It was a fun project that implemented:
 - application building with [`Shiny`](https://shiny.rstudio.com/)
 - mapping with [`leaflet`](https://rstudio.github.io/leaflet/)
 
-CHECK IT OUT [HERE](https://thtupham.shinyapps.io/eBird/)!
+## CHECK IT OUT [HERE](https://thtupham.shinyapps.io/eBird/)!
 
 You can visualize observations on a map for each state for each species of bird
 that has been observed by eBird in the past 30 days. It provides an image of 
@@ -147,6 +147,8 @@ ebirdnotable(lat = 36.96, lng = -122.01, dist = 15, key = EBIRD_KEY)
 # 10 lucwar      Lucy's W~ Leiothlyp~ L1336~ Tyrrell Park  2022-~       1  37.0 -122. TRUE     TRUE       
 # # ... with 40 more rows, and 2 more variables: locationPrivate <lgl>, subId <chr>
 ```
+---
+
 ### Step 2. Map the data
 Here I will show a simple example of how to retrieve observation data for a 
 single species, and visualize it on a map using [`leaflet`](https://rstudio.github.io/leaflet/). 
@@ -176,6 +178,7 @@ And voila, here is what the map looks like!
 
 ![](/assets/images/ebird-leaflet.png)
 
+---
 
 ### Step 3. Add reactivity for Shiny
 The beauty of Shiny to me is the reactivity. A user selects or provides an input
@@ -229,6 +232,8 @@ birdList <- unique(obs$comName)
     </div>
 </div>
 
+---
+
 ### Step 4. Webscrape to add species pictures and descriptions!
 To add dynamic photos and descriptions to the user's species selection I used
 the webscraping package [`rvest`](https://rvest.tidyverse.org/) which is 
@@ -244,7 +249,7 @@ to grab information for specific birds.
 
 ![](/assets/images/ebird-species-profile.jpg)
 
-##### Now let's grab the image and the description.
+#### Now let's grab the image and the description.
 
 ```r
 # Build the url for a species providing the species code
