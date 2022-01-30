@@ -1,6 +1,6 @@
 # main text of home
 name: Tom Pham
-bio: COVID-19 Data Analyst
+bio: Institute of Health Metrics and Evaluation </br> COVID-19 Data Analyst
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -15,7 +15,7 @@ dark-theme: true
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -43,7 +43,7 @@ email: thtupham@gmail.com
 authors:
   tom-pham:
     name: Tom Pham
-    bio: COVID-19 Data Analyst
+    bio: Institute of Health Metrics and Evaluation COVID-19 Data Analyst
     external-image: false
     picture: assets/images/profile.jpg
     #twitter: johndoe

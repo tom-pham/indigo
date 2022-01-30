@@ -7,6 +7,7 @@ headerImage: true
 tag:
 - R
 - dataviz
+- mapping
 star: true
 category: blog
 author: tom-pham
