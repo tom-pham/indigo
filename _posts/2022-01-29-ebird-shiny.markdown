@@ -307,5 +307,7 @@ content[rownum]
 # especially with Royal Tern, which is slightly smaller and more slender, and 
 # has a thinner, more orangey bill.\n\r\n"
 ```
-Putting it all together!
+## Putting it all together!
 ![](/assets/images/ebid-shiny-screenshot.png)
+
+Thanks for reading! You can see the app in its entirety [here](https://github.com/tom-pham/ebird-shiny).
