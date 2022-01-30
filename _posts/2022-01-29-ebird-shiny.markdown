@@ -2,12 +2,18 @@
 title: ":penguin: Webscraping, eBird, and Shiny with rebird"
 layout: post
 date: 2022-01-29 16:41
-tag: jekyll
+tag: 
+- R
+- dataviz
+- webscraping
+- shiny
+- webmapping
 image: https://docs.ropensci.org/rebird/logo.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "This is a post about using eBird data and webscraping to create
+a Shiny application"
 category: project
 author: tom-pham
 externalLink: false
@@ -94,7 +100,6 @@ head(tax)
 #   6 Rhea penn~ Lesser ~ lesrhe4     issf             15 NA           LERH,LR      RHPE         Rhei~
 #   # ... with 6 more variables: familyCode <chr>, familyComName <chr>, familySciName <chr>,
 #   #   reportAs <chr>, extinct <lgl>, extinctYear <int>
-
 ```
 
 #### ebirdregion()
@@ -166,7 +171,6 @@ leaflet(data = cate) %>%
                    popup = ~as.character(locName), 
                    label = ~as.character(locName),
                    radius = 1)
-
 ```
 And voila, here is what the map looks like!
 
