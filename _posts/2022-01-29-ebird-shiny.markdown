@@ -14,6 +14,7 @@ projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a post about using eBird data and webscraping to create
 a Shiny application"
+star: true
 category: project
 author: tom-pham
 externalLink: false
